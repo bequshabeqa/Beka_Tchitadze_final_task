@@ -1,6 +1,6 @@
 package SelenideSteps;
 
-import Selenide.bookingRegElements;
+import SelenideElements.bookingRegElements;
 import com.codeborne.selenide.Condition;
 import java.io.FileNotFoundException;
 

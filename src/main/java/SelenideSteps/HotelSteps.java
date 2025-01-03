@@ -1,6 +1,6 @@
 package SelenideSteps;
 
-import Selenide.HotelElements;
+import SelenideElements.HotelElements;
 import java.io.FileNotFoundException;
 import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.visible;
