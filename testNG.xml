@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite" parallel="tests" thread-count="3">
+    <test name="bookingReg Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Selenide.bookingRegTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Hotel Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Selenide.HotelTest">
+            </class>
+        </classes>
+    </test>
+    <test name="uploadPDF Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Selenide.uploadTest">
+            </class>
+        </classes>
+    </test>
+</suite>
