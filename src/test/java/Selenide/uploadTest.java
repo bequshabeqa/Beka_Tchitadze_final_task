@@ -6,12 +6,9 @@ import com.codeborne.selenide.Selenide;
 import org.openqa.selenium.Alert;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.io.File;
-
-import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
-import static org.testng.Assert.assertEquals;
+
 
 public class uploadTest {
 

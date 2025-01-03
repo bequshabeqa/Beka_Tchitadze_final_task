@@ -2,8 +2,6 @@ package Selenide;
 
 import com.codeborne.selenide.Selectors;
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.support.ui.Select;
-
 import static com.codeborne.selenide.Selenide.$;
 
 public class HotelElements {
