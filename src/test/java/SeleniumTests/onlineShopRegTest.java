@@ -1,11 +1,11 @@
-package SeleniumElements;
+package SeleniumTests;
 
 import Utils.SetUpClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import seleniumSteps.onlineShopRegSteps;
 
-public class onlineShopTest extends SetUpClass {
+public class onlineShopRegTest extends SetUpClass {
 
     onlineShopRegSteps onlineShopRegSteps = new onlineShopRegSteps();
 
