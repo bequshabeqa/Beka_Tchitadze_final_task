@@ -17,7 +17,7 @@ public class SetUpClass {
 
     public static WebDriver driver;
 
-    public static WebDriverWait globalWait;
+    public static WebDriverWait wait;
 
     public static void setup() {
 
@@ -44,13 +44,13 @@ public class SetUpClass {
 
     public static void setUpGlobalWait() {
 
-        globalWait = new WebDriverWait(driver, Duration.ofSeconds(50)); // Global wait duration
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
     }
 
     public static WebElement findElement(By element) {
 
-        return globalWait.until(ExpectedConditions.visibilityOfElementLocated(element));
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(element));
 
     }
 
