@@ -2,7 +2,6 @@ package SeleniumTests;
 
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-import seleniumSteps.onlineShopSteps;
 import seleniumSteps.twoShopSteps;
 
 import java.time.Duration;

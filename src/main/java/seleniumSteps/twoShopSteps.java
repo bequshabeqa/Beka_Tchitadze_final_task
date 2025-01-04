@@ -2,10 +2,6 @@ package seleniumSteps;
 
 import SeleniumElements.twoShopElements;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-
-import static com.codeborne.selenide.files.DownloadActions.click;
 
 public class twoShopSteps extends twoShopElements {
 
