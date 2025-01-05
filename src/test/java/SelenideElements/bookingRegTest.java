@@ -42,7 +42,7 @@ public class bookingRegTest {
         bookingSteps.selectCountryButton.click();
         bookingSteps.checkChoiseCountryText("Georgia");
         bookingSteps.phoneNumber.setValue("598434697");
-        bookingSteps.emailAddress.setValue("bekatchitadze@.com");
+        bookingSteps.emailAddress.setValue("bekatchitadze@gmail.com");
         bookingSteps.password.setValue("Beqa123!@#");
 
         bookingSteps.checkBox.click();
