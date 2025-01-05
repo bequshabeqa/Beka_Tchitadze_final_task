@@ -5,8 +5,9 @@ import com.codeborne.selenide.Selectors;
 import com.codeborne.selenide.Selenide;
 import org.openqa.selenium.Alert;
 import org.testng.annotations.Test;
-import java.io.File;
 import static com.codeborne.selenide.Selenide.*;
+import java.io.File;
+
 
 public class uploadTest {
 
