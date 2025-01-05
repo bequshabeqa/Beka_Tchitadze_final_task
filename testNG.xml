@@ -15,6 +15,7 @@
             </class>
         </classes>
     </test>
+
     <test name="uploadPDF Tests">
         <parameter name="browser" value="chrome"/>
         <classes>
@@ -22,4 +23,29 @@
             </class>
         </classes>
     </test>
+
+    <test name="onlineShopReg Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="SeleniumTests.onlineShopRegTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="onlineShop Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="SeleniumTests.onlineShopTests">
+            </class>
+        </classes>
+    </test>
+
+    <test name="twoShop Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="SeleniumTests.twoShopTest">
+            </class>
+        </classes>
+    </test>
+
 </suite>

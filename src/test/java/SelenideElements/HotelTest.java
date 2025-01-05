@@ -52,16 +52,16 @@ public class HotelTest {
         hotelSteps.roomBooking.scrollTo().shouldBe(visible).click();
         sleep(2000);
 
-        hotelSteps.userNameInput.setValue("John");
-        hotelSteps.userLastNameInput.setValue("Doe");
-        hotelSteps.userEmailInput.setValue("johndoe@example.com");
-        hotelSteps.userPhoneInput.setValue("123123123");
+        hotelSteps.userNameInput.setValue("Beka");
+        hotelSteps.userLastNameInput.setValue("Tchitadze");
+        hotelSteps.userEmailInput.setValue("bekatchitadze@gmail.com");
+        hotelSteps.userPhoneInput.setValue("598434697");
         hotelSteps.userAddressInput.setValue("Gmir-kursantta 1, b 120");
 
         hotelSteps.MrChoise.click();
         hotelSteps.MrChoiseInput.click();
-        hotelSteps.AdultTravelName.setValue("John");
-        hotelSteps.AdultTravelLastName.setValue("Doe");
+        hotelSteps.AdultTravelName.setValue("Beka");
+        hotelSteps.AdultTravelLastName.setValue("Tchitadze");
         sleep(1000);
 
         hotelSteps.payOption.scrollTo().shouldBe(visible).shouldBe(enabled).click();
