@@ -2,7 +2,6 @@ package seleniumSteps;
 
 
 import SeleniumElements.onlineShopRegElements;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 
 import static Utils.SetUpClass.driver;

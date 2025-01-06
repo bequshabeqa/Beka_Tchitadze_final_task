@@ -1,7 +1,6 @@
 package SeleniumTests;
 
 import Utils.SetUpClass;
-import com.codeborne.selenide.conditions.Visible;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import seleniumSteps.onlineShopSteps;

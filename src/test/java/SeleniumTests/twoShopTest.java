@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 import seleniumSteps.twoShopSteps;
 
 import java.time.Duration;
-
 import static org.testng.Assert.assertTrue;
 
 public class twoShopTest extends twoShopSteps {
