@@ -3,7 +3,7 @@
     <test name="bookingReg Tests">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="SelenideElements.bookingRegTest">
+            <class name="SelenideTests.bookingRegTest">
             </class>
         </classes>
     </test>
@@ -11,7 +11,7 @@
     <test name="Hotel Tests">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="SelenideElements.HotelTest">
+            <class name="SelenideTests.HotelTest">
             </class>
         </classes>
     </test>
@@ -19,7 +19,7 @@
     <test name="uploadPDF Tests">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="SelenideElements.uploadTest">
+            <class name="SelenideTests.uploadTest">
             </class>
         </classes>
     </test>

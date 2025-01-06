@@ -1,4 +1,4 @@
-package SelenideElements;
+package SelenideTests;
 
 import SelenideSteps.HotelSteps;
 import com.codeborne.selenide.Configuration;

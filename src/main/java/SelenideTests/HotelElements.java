@@ -1,4 +1,4 @@
-package SelenideElements;
+package SelenideTests;
 
 import com.codeborne.selenide.Selectors;
 import com.codeborne.selenide.SelenideElement;

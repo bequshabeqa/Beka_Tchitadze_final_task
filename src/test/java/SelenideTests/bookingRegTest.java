@@ -1,4 +1,4 @@
-package SelenideElements;
+package SelenideTests;
 
 import SelenideSteps.bookingRegSteps;
 import com.codeborne.selenide.Configuration;
