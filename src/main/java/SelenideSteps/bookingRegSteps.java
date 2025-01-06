@@ -45,6 +45,7 @@ public class bookingRegSteps extends bookingRegElements {
 
     public void checkSignUpSubmitButton() {
         signUpSubmitButton.isEnabled();
+        signUpSubmitButton.click();
     }
 
     public void checkBoxInfo() {

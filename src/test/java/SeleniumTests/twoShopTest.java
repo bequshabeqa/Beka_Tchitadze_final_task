@@ -66,9 +66,6 @@ public class twoShopTest extends twoShopSteps {
         System.out.println("Vies ღილაკი ხილულია");
 
         twoShopSteps.accountButton();
-//        twoShopSteps.correctName();
-//        twoShopSteps.correctLastname();
-//        twoShopSteps.correctemail();
         twoShopSteps.correctPassword();
         twoShopSteps.NewPassword1();
         twoShopSteps.NewPassword2();

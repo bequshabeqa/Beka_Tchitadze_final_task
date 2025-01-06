@@ -5,9 +5,7 @@ import com.codeborne.selenide.conditions.Visible;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import seleniumSteps.onlineShopSteps;
-
 import java.time.Duration;
-
 import static org.testng.Assert.assertTrue;
 
 public class onlineShopTests extends SetUpClass {
@@ -37,15 +35,15 @@ public class onlineShopTests extends SetUpClass {
 //        assertTrue(isOnlyOneProductDisplayed, "More than one product was displayed after applying the price filter.");
 
         onlineShopSteps.BasketInfo();
-        onlineShopSteps.addProductToCart();
+        onlineShopSteps.addProductBassket();
         boolean isCartUpdated = onlineShopSteps.isCartUpdated();
         assertTrue(isCartUpdated, "The cart icon did not update after adding the product.");
 
-        onlineShopSteps.addProductToCart();
+        onlineShopSteps.addProductBassket();
         boolean isProductInCart = onlineShopSteps.verifyProductInCart();
         assertTrue(isProductInCart, "The product is not found in the cart.");
 
-        onlineShopSteps.addProductToCart();
+        onlineShopSteps.addProductBassket();
         onlineShopSteps.removeProductFromCart();
         boolean isCartEmpty = onlineShopSteps.isCartEmpty();
         assertTrue(isCartEmpty, "The cart is not empty after removing the product.");

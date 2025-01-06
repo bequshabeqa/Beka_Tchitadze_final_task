@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.sleep;
 
 public class bookingRegTest {
 
@@ -29,12 +28,10 @@ public class bookingRegTest {
 
         bookingSteps.dropDown.click();
         bookingSteps.singUp.click();
-        sleep(3000);
         bookingSteps.signUpSubmitButton.scrollTo().shouldBe(visible);
         bookingSteps.signUpSubmitButton.isEnabled();
         System.out.println("SignUp ღილაკი არ არის აქტიური");
         bookingSteps.scrollElement.scrollTo();
-        sleep(1500);
         bookingSteps.userNameInput.setValue("Beka");
         bookingSteps.userLastNameInput.setValue("Tchitadze");
         bookingSteps.selectCountryButton.click();
@@ -46,12 +43,8 @@ public class bookingRegTest {
         bookingSteps.password.setValue("Beqa123!@#");
 
         bookingSteps.checkBox.click();
-//        bookingSteps.getCheckBox.click();
-        sleep(50000);
-//        bookingSteps.checkBoxClick.click();
 
         bookingSteps.signUpSubmitButton.click();
-        sleep(2000);
 
         System.out.println("მომხმარებელი წარმატებით დარეგისტრირდა ");
     }

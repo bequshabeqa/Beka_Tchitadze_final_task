@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.sleep;
 
 public class HotelTest {
 
@@ -39,18 +38,15 @@ public class HotelTest {
         hotelSteps.adultsCount.setValue("1");
         hotelSteps.childsCount.setValue("0");
         hotelSteps.searchButton.click();
-        sleep(2000);
 
         hotelSteps.priceSort.click();
         hotelSteps.ApplyFilters.click();
         hotelSteps.resetButton.click();
-        sleep(1000);
         hotelSteps.priceSort.click();
         hotelSteps.ApplyFilters.click();
 
         hotelSteps.roomInfo.click();
         hotelSteps.roomBooking.scrollTo().shouldBe(visible).click();
-        sleep(2000);
 
         hotelSteps.userNameInput.setValue("Beka");
         hotelSteps.userLastNameInput.setValue("Tchitadze");
@@ -62,15 +58,11 @@ public class HotelTest {
         hotelSteps.MrChoiseInput.click();
         hotelSteps.AdultTravelName.setValue("Beka");
         hotelSteps.AdultTravelLastName.setValue("Tchitadze");
-        sleep(1000);
 
         hotelSteps.payOption.scrollTo().shouldBe(visible).shouldBe(enabled).click();
         hotelSteps.agreeCheckBox.click();
         hotelSteps.bookingConfirmButton.click();
-        sleep(1500);
 
         hotelSteps.reservationDownload.scrollTo().shouldBe(enabled).click();
-        sleep(1500);
-
     }
 }

@@ -14,18 +14,6 @@ public class onlineShopRegTest extends SetUpClass {
         setUpGlobalWait();
     }
 
-//    @Test
-//    public void RegNoSuccessTest() {
-//
-//        driver.get("https://practice.automationtesting.in/my-account/");
-//
-//        onlineShopRegSteps.emailInput("johndoe@example.com");
-//        onlineShopRegSteps.setPassword("Beqa123!@#");
-//        onlineShopRegSteps.clickLogInButton();
-//
-//        onlineShopRegSteps.checkFlashMessageErrorText(" An account is already registered with your email address. Please login.");
-//
-//    }
 
     @Test
     public void RegSuccessTest() {
@@ -35,8 +23,6 @@ public class onlineShopRegTest extends SetUpClass {
         onlineShopRegSteps.emailInput("bekatchitadze@gmail.com");
         onlineShopRegSteps.setPassword("Beqa123!@#");
         onlineShopRegSteps.clickLogInButton();
-
-//        onlineShopRegSteps.checkSuccessMessageText("My Account");
 
     }
 }

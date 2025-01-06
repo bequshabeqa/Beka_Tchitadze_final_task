@@ -81,5 +81,4 @@ public class twoShopElements extends SetUpClass {
 
     public By signOut = By.xpath("//*[@id=\"page-36\"]/div/div[1]/div[2]/p[1]/a");
 
-
 }

@@ -56,8 +56,8 @@ public class onlineShopSteps extends onlineShopElements {
 
         driver.findElement(addBasket).click();
     }
-    public void addProductToCart() {
-        wait.until(ExpectedConditions.elementToBeClickable(addBasket)).click();
+    public void addProductBassket() {
+        driver.findElement(addBasket).click();
     }
     public boolean isCartUpdated() {
         WebElement cartIconElement = wait.until(ExpectedConditions.visibilityOfElementLocated(cartIcon));

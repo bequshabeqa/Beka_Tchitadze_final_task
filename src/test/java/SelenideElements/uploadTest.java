@@ -30,10 +30,8 @@ public class uploadTest {
         $("#myFile").uploadFile(file);
 
         $(Selectors.byId("myFile")).shouldHave(Condition.value("invoice.pdf"));
-        sleep(3000);
 
         $(Selectors.byId("submit-button")).click();
-        sleep(1500);
         Alert alert = Selenide.switchTo().alert();
         String alertText = alert.getText();
 
@@ -42,9 +40,5 @@ public class uploadTest {
         } else {
             System.out.println("Failure: Alert message is incorrect. Found " + alertText);
         }
-
-
-        sleep(2000);
-
     }
 }
