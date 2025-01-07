@@ -115,7 +115,7 @@ public class twoShopSteps extends twoShopElements {
     }
     public void ordersButton () {
 
-        driver.findElement(orders).click();
+        driver.findElement(OrdersButton).click();
     }
     public void viewAssert () {
 
@@ -143,11 +143,11 @@ public class twoShopSteps extends twoShopElements {
     }
     public void NewPassword1 () {
 
-        driver.findElement(password1).sendKeys("Beqa321#@!");
+        driver.findElement(password1).sendKeys("Beqa123!@#1");
     }
     public void NewPassword2 () {
 
-        driver.findElement(password1double).sendKeys("Beqa321#@!");
+        driver.findElement(password1double).sendKeys("Beqa123!@#1");
     }
     public void SaveButton () {
 

@@ -59,9 +59,9 @@ public class twoShopElements extends SetUpClass {
 
     public By MyAccount = By.id("menu-item-50");
 
-    public By orders = By.xpath("//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[2]/a");
+    public By OrdersButton = By.xpath("//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[2]/a");
 
-    public By View = By.xpath("//*[@id=\"page-36\"]/div/div[1]/div/table/tbody/tr/td[5]/a");
+    public By View = By.xpath("//*[@id=\"page-36\"]/div/div[1]/div/table/tbody/tr[1]/td[5]/a");
 
     public By Account = By.xpath("//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[5]/a");
 
@@ -79,6 +79,6 @@ public class twoShopElements extends SetUpClass {
 
     public By saveChangeButton = By.xpath("//*[@id=\"page-36\"]/div/div[1]/div/form/p[4]/input[3]");
 
-    public By signOut = By.xpath("//*[@id=\"page-36\"]/div/div[1]/div[2]/p[1]/a");
+    public By signOut = By.xpath("//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[6]/a");
 
 }
