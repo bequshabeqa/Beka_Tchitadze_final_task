@@ -21,11 +21,6 @@ public class twoShopSteps extends twoShopElements {
         driver.findElement(addBasketRuby).click();
     }
 
-//    public boolean verifyProductInBassket() {
-//        wait.until(ExpectedConditions.elementToBeClickable(cartIcon)).click();
-//        WebElement productInCart = wait.until(ExpectedConditions.visibilityOfElementLocated(cartProductTitle));
-//        return productInCart != null;
-//    }
 
     public void BassketButton() {
 
